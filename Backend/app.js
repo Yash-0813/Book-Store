@@ -11,7 +11,7 @@ app.use(cors());
 app.use("/books", router)
 
 mongoose.connect(
-    "mongodb+srv://yashgupta2361:Yash0813@book.65hrbl6.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://yashgupta2361:Yash0813@book.65hrbl6.mongodb.net/"
 )
     .then(() => console.log("Connected to Database"))
     .then(() => {
